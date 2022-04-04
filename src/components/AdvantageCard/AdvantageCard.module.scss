@@ -1,0 +1,22 @@
+.card {
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    padding: 14px 18px 14px 18px;
+    border-radius: 10px;
+  }
+  border-radius: 18px;
+  background: #000000;
+  border: 1px solid #7F7F7F;
+  padding: 18px 25px 18px 25px;
+  display: inline-block;
+  width: fit-content;
+
+  p {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+      font-size: 14px;
+      line-height: 16px;
+    }
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+  }
+}

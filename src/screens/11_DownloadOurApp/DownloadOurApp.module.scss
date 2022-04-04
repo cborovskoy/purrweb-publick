@@ -1,0 +1,45 @@
+.content {
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    width: 345px;
+    margin-top: 74px;
+  }
+  display: flex;
+  align-items: center;
+  margin-top: 91px;
+  flex-direction: column;
+
+  p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 32px;
+  }
+
+  .AppStoreAndGooglePlay{
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    svg{
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    svg:hover {
+      transform: scale(1.1);
+    }
+
+    .appStore{
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        margin-right: 0;
+        margin-bottom: 24px;
+      }
+      margin-right: 59px;
+    }
+  }
+
+
+}

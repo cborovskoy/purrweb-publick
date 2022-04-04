@@ -1,0 +1,166 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  overflow: hidden;
+  height: 100%;
+
+  .contentLimits {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+      margin-left: unset;
+      margin-right: unset;
+    }
+    width: 1240px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    .gradient_spot_1 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        top: -309px;
+        left: -251px;
+        width: 816px;
+      }
+      position: relative;
+      top: -250px;
+      left: 320px;
+    }
+
+    .gradient_spot_2 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        display: none;
+      }
+      position: relative;
+      top: -700px;
+      left: -420px;
+    }
+
+    .gradient_spot_3 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        top: 590px;
+        left: -995px;
+      }
+      position: relative;
+      top: 490px;
+      left: 280px;
+    }
+
+    .gradient_spot_4 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        display: none;
+      }
+      position: relative;
+      top: 1300px;
+      left: -590px;
+    }
+
+    .gradient_spot_5 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        margin-top: 959px;
+        width: 396px;
+        height: auto;
+        margin-right: -156px;
+      }
+      position: relative;
+      top: 341px;
+    }
+
+    .gradient_spot_6 {
+      position: relative;
+      top: -615px;
+      left: 600px;
+    }
+
+    .gradient_spot_7 {
+      position: relative;
+      top: -292px;
+      left: -235px;
+    }
+
+
+    .gradient_spot_8 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        left: -277px;
+      }
+      position: relative;
+      top: -360px;
+      left: 620px;
+    }
+
+    .gradient_spot_9 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+          top: 830px;
+      }
+      position: relative;
+      top: -450px;
+      left: -600px;
+    }
+
+
+    .bg_screen4 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        width: 375px;
+        margin-left: 0;
+        margin-right: 900px;
+        margin-top: 200px;
+      }
+      margin-left: -100px;
+      position: relative;
+      width: 1440px;
+      top: 1105px;
+    }
+
+    .bg_screen6__full {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        width: 375px;
+        flex-direction: column;
+        margin-top: 3133px;
+        margin-left: 0;
+      }
+      display: flex;
+      justify-content: space-between;
+      width: 1440px;
+      margin-left: -100px;
+      margin-top: 1304px;
+      position: relative;
+
+      .bg_screen6p1 {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          margin-bottom: 261px;
+        }
+      }
+
+      .bg_screen6p2 {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          width: 352px;
+          margin-left: 55px;
+          margin-top: -40px;
+        }
+      }
+    }
+
+    .bg_screen7 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        width: 479px;
+        top: 473px;
+        left: 24px;
+      }
+      margin-left: -310px;
+      position: relative;
+      width: 1920px;
+      top: -811px;
+    }
+
+    .bg_screen9 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        display: none;
+      }
+      margin-left: -310px;
+      position: relative;
+      width: 1920px;
+      margin-top: -63px;
+    }
+  }
+}

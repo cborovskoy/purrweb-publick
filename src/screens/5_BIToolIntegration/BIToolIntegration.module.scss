@@ -1,0 +1,137 @@
+.textsAndImgs {
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    margin-top: 90px;
+  }
+  margin-top: 294px;
+  display: flex;
+
+  .texts {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+      height: 415px;
+    }
+
+    h2 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        font-size: 24px;
+        line-height: 29px;
+      }
+      margin-bottom: 23px;
+    }
+
+    h4 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        font-size: 16px;
+        line-height: 22px;
+        width: 338px;
+      }
+      width: 395px;
+    }
+
+  }
+
+  .charts {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+      margin-top: 267px;
+    }
+
+    .row1 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        margin-left: 0;
+        margin-top: 0;
+      }
+      margin-left: 338px;
+      margin-top: -89px;
+
+      .chart0 {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          width: 144px;
+          margin-left: -382px;
+
+        }
+      }
+    }
+
+    .row2 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        margin-left: 0;
+        margin-top: 0;
+      }
+      display: flex;
+      margin-top: 29px;
+      margin-left: 158px;
+
+      .chart1 {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          width: 109px;
+          margin-left: -317px;
+          margin-top: -211px;
+        }
+        position: relative;
+        margin-right: 60px;
+      }
+
+      .chart2 {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          width: 85px;
+          margin-left: 64px;
+          margin-top: -304px;
+        }
+        position: relative;
+        left: 10px;
+      }
+    }
+
+    .row3 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        margin-left: 0;
+      }
+      position: relative;
+      margin-left: 25px;
+      display: flex;
+
+      .chart3 {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          display: none;
+        }
+        margin-top: -129px;
+      }
+
+      .chart4 {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          width: 91px;
+          margin-left: -160px;
+          margin-top: -248px;
+        }
+        margin-left: 63px;
+        margin-top: -71px;
+
+      }
+    }
+
+    .row4 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        margin-left: 0;
+        margin-top: -187px;
+      }
+      margin-left: 207px;
+      margin-top: -17px;
+
+      .chart5 {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          width: 91px;
+          margin-left: -219px;
+        }
+      }
+
+      .chart6 {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          width: 282px;
+          margin-left: -50px;
+          margin-bottom: -55px;
+        }
+        margin-top: 11px;
+        margin-left: 47px;
+      }
+    }
+  }
+}

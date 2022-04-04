@@ -1,0 +1,17 @@
+.content {
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    display: none;
+  }
+
+  display: flex;
+  justify-content: center;
+  margin-top: 266px;
+
+  .phone {
+    align-self: center;
+  }
+
+  .test {
+    margin-top: 1000px;
+  }
+}

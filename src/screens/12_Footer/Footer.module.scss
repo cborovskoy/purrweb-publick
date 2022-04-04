@@ -1,0 +1,82 @@
+.content {
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    width: 345px;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 0;
+  }
+  margin-top: 150px;
+  margin-bottom: 86px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  a, p {
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  .leftPart {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+      margin-top: 58px;
+      margin-bottom: 20px;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    svg {
+      margin-bottom: 10px;
+    }
+
+    .contacts {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        display: flex;
+      }
+
+      .contactUs {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          font-size: 14px;
+          line-height: 19px;
+          margin-right: 3px;
+        }
+        font-weight: 400
+      }
+
+      a {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          font-size: 14px;
+          line-height: 19px;
+        }
+      }
+    }
+
+    .copyright {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        font-size: 14px;
+        line-height: 19px;
+      }
+      margin-top: 20px;
+    }
+  }
+
+  .rightPart {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        margin-bottom: 20px;
+      }
+      margin-bottom: 28px;
+    }
+  }
+
+  a:hover {
+    color: #FA00FF;
+
+  }
+}

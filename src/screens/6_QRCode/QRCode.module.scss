@@ -1,0 +1,106 @@
+.content {
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    margin-top: 230px;
+    width: 345px;
+  }
+  margin-top: 204px;
+
+  .textsAndPhones {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+      flex-direction: column;
+    }
+    display: flex;
+
+    .texts {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        margin-top: 0;
+      }
+      margin-top: 470px;
+
+      h2 {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          font-size: 24px;
+          line-height: 29px;
+        }
+        margin-bottom: 23px;
+      }
+
+      h4 {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          font-size: 16px;
+          line-height: 22px;
+        }
+        width: 320px;
+      }
+
+      .appStoreAndGooglePlay {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+        }
+        margin-top: 58px;
+
+        svg {
+          cursor: pointer;
+          transition: all 0.2s ease;
+        }
+
+        svg:hover {
+          transform: scale(1.1);
+        }
+
+        .appStore {
+          @media only screen and (min-width: 320px) and (max-width: 480px) {
+            margin-right: 0;
+            margin-bottom: 24px;
+          }
+          margin-right: 28px;
+        }
+      }
+    }
+
+
+    .phones {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        margin-top: 185px;
+      }
+      margin-top: 250px;
+
+      img {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          margin-left: 0;
+          width: 287px;
+          height: auto;
+          margin-bottom: 55px;
+        }
+        align-self: center;
+        margin-left: 80px;
+      }
+
+      .phone2 {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          top: 0;
+        }
+        position: relative;
+        top: 350px;
+      }
+    }
+  }
+
+  .nightlifeSvg {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+      text-align: left;
+      margin-top: -1326px;
+      width: 88px;
+      margin-left: 15px;
+    }
+    margin-top: -924px;
+    text-align: right;
+  }
+}
+
+

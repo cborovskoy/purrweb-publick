@@ -1,0 +1,100 @@
+.content {
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    flex-direction: column;
+    width: 345px;
+    margin-top: 213px;
+  }
+
+  margin-top: 180px;
+
+  .textsArea {
+    display: flex;
+    justify-content: flex-end;
+
+    .texts {
+      width: 481px;
+
+      h2 {
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          font-size: 24px;
+          line-height: 29px;
+          width: 200px;
+        }
+        margin-bottom: 23px;
+      }
+
+      h4{
+        @media only screen and (min-width: 320px) and (max-width: 480px) {
+          font-size: 16px;
+          line-height: 22px;
+          width: 324px;
+        }
+      }
+    }
+  }
+
+  .phoneArea {
+    display: flex;
+    justify-content: center;
+
+    .phone {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        width: 360px;
+        height: auto;
+        margin-left: -22px;
+        margin-top: 144px;
+      }
+      margin-left: 45px;
+    }
+  }
+
+  .cardsArea {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+          margin-top: -500px;
+    }
+
+    margin-top: -850px;
+
+    .card1 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        left: 24px;
+      }
+      position: relative;
+      width: fit-content;
+      left: 666px;
+    }
+
+    .card2 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        left: 174px;
+      }
+      position: relative;
+      width: fit-content;
+      margin-top: 56px;
+      left: 200px;
+    }
+
+    .card3 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+        left: 223px;
+        margin-top: 310px;
+      }
+      position: relative;
+      width: fit-content;
+      margin-top: 167px;
+      left: 900px;
+    }
+
+    .card4 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        left: 15px;
+        margin-top: -130px;
+      }
+      position: relative;
+      width: fit-content;
+      left: 400px;
+
+    }
+  }
+}

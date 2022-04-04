@@ -1,0 +1,57 @@
+.cookieAlert {
+  background-color: #212834;
+  height: 93px;
+  width: 100%;
+  z-index: 3;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+
+  .content {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+      width: 345px;
+    }
+    width: 1240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .text {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        font-size: 12px;
+        line-height: 16px;
+        width: 180px;
+      }
+
+      font-family: 'Noto Sans', sans-serif;
+      color: #FFFFFF;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    .btn {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        width: 92px;
+        height: 50px;
+      }
+      width: 132px;
+      height: 50px;
+      border-radius: 6px;
+      cursor: pointer;
+      border: 0.5px solid #FFFFFF;
+      background: #373D48;
+      color: #FFFFFF;
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 14px;
+    }
+
+    .btn:hover{
+      background: #FFFFFF;
+      color: #373D48;
+    }
+  }
+}
+
+
+

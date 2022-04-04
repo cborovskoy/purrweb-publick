@@ -1,0 +1,54 @@
+.phonesAndTexts {
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    flex-direction: column-reverse;
+    margin-top: 0;
+    width: 345px;
+
+  }
+  margin-top: 543px;
+  display: flex;
+
+  .phones{
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+      flex-direction: column;
+      align-items: center;
+    }
+    display: flex;
+
+    .phone {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        margin-right: 0;
+        width: 287px;
+        height: auto;
+        margin-bottom: 55px;
+      }
+      margin-right: 50px;
+      object-fit: contain;
+    }
+  }
+
+  .texts {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+      margin-left: 0;
+      margin-top: 433px;
+      margin-bottom: 70px;
+    }
+    margin-left: 128px;
+    margin-top: 387px;
+    h2 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        font-size: 24px;
+        line-height: 29px;
+      }
+      margin-bottom: 23px;
+    }
+
+    h4 {
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        font-size: 16px;
+        line-height: 22px;
+      }
+      width: 320px;
+    }
+  }
+}
